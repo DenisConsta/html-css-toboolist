@@ -34,14 +34,15 @@ header h1{
 /* MAIN*/
 
 .container{
-  background-color:white;
+  background-color:#F6F8F9;
   width: 75%;
   margin: 40px auto;
 }
 
 /* BOTTONS SECTION*/
-.container .buttons{
+.container .buttons,.todolist{
   padding: 30px 50px;
+  background-color:white;
 }
 
 .btn{
@@ -62,4 +63,56 @@ header h1{
   background-color: white;
   border-color: grey;
   color: grey;
+}
+
+/* TO DO LIST */
+
+.todolist{
+  margin-top: 5px;
+
+}
+
+.todolist h3{
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.todolist div p{
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.circle{
+  display: inline-block;
+  padding: 5px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: .8rem;
+  width: 30px;
+  height: 30px;
+}
+
+.check{
+  color:green;
+  border: 1px solid green;
+}
+
+.cross{
+  color:red;
+  border: 1px solid red;
+}
+
+.tag{
+  font-size: .7rem;
+  border: 1px solid;
+  padding: 5px 10px;
+  border-radius: 15px;
+  color:white;
+}
+
+.light-blue{
+  background-color:#45ABEA;
+  border-color: #45ABEA;
 }
