@@ -76,22 +76,23 @@ header h1{
   margin-bottom: 30px;
 }
 
-.task{
-  margin-bottom: 15px;
-}
-
-.todolist .macro-task h3{
+.macro-task h3{
   display: inline-block;
   font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
-.todolist div p{
+.task{
+  margin-bottom: 15px;
+}
+
+.task p{
   display: inline-block;
   padding: 0 5px;
 }
 
+/* CERCHIO ATTORNO A CHECK E CROSS*/
 .circle{
   display: inline-block;
   padding: 5px;
@@ -112,6 +113,8 @@ header h1{
   border: 1px solid red;
 }
 
+/* TAG CATEGORIA TASK*/
+
 .tag{
   font-size: .7rem;
   border: 1px solid;
@@ -119,6 +122,8 @@ header h1{
   border-radius: 15px;
   color:white;
 }
+
+/* COLORI TAG */
 
 .light-blue{
   background-color:#45ABEA;
